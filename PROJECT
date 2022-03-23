@@ -1,0 +1,16 @@
+domain: toolkit.fluxcd.io
+repo: github.com/fluxcd/source-controller
+resources:
+- group: source
+  kind: GitRepository
+  version: v1beta1
+- group: source
+  kind: HelmRepository
+  version: v1beta1
+- group: source
+  kind: HelmChart
+  version: v1beta1
+- group: source
+  kind: Bucket
+  version: v1beta1
+version: "2"
