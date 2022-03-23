@@ -51,7 +51,6 @@ RUN --mount=target=. \
 # Ensure that the binary was cross-compiled correctly to the target platform.
 RUN xx-verify --static /source-controller
 
-
 FROM registry.access.redhat.com/ubi8/ubi
 
 ARG TARGETPLATFORM
